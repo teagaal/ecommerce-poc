@@ -1,26 +1,15 @@
-import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import Layout from '../components/Layout'
+import { CartStateProvider } from '../context/cartContext'
+import { ProductsStateProvider } from '../context/productsContext'
 
-const GlobalStyle = createGlobalStyle`
-  body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-`
-
-const theme = {
-  colors: {
-    primary: '#0070f3',
-  },
-}
-
-export default function App({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }) {
   return (
-    <>
-      <GlobalStyle />
-      <ThemeProvider theme={theme}>
-        <Component {...pageProps} />
-      </ThemeProvider>
-    </>
+    <ProductsStateProvider>
+      <CartStateProvider>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </CartStateProvider>
+    </ProductsStateProvider>
   )
 }

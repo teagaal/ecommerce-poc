@@ -1,0 +1,272 @@
+{
+    "products": [
+        {
+            "id": 1,  
+            "name": "Winter Forest",
+            "category": "landscapes",
+            "price": 19,
+            "currency": "USD",
+            "image": {
+              "src": "/static/winter-forest.jpg",
+              "alt": "Aerial view of a snow-covered forest."
+            },
+            "bestseller": true,
+            "featured": true,
+            "details": {
+              "dimensions": {
+                "width": 1020,
+                "height": 1020
+              },
+              "size": 20000,
+              "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate."
+            }
+        },
+        {
+            "id": 2,  
+            "name": "Woman in a ring",
+            "category": "people",
+            "price": 233,
+            "currency": "USD",
+            "image": {
+              "src": "/static/woman-in-a-ring.jpg",
+              "alt": "Woman wearing sunglasses viewed through a ring."
+            },
+            "bestseller": false,
+            "featured": false
+        },
+        {
+            "id": 3,  
+            "name": "Surfer at sunset",
+            "category": "people",
+            "price": 104,
+            "currency": "USD",
+            "image": {
+              "src": "/static/surfer-at-sunset.jpg",
+              "alt": "A surfer in the waters, at sunset."
+            },
+            "bestseller": false,
+            "featured": false
+        },
+        {
+            "id": 4,  
+            "name": "Night city",
+            "category": "landscapes",
+            "price": 143,
+            "currency": "USD",
+            "image": {
+              "src": "/static/night-city.jpg",
+              "alt": "View of a street in a foggy night."
+            },
+            "bestseller": true,
+            "featured": false
+        },
+        {
+            "id": 5,  
+            "name": "Woman in red",
+            "category": "people",
+            "price": 240,
+            "currency": "USD",
+            "image": {
+              "src": "/static/woman-in-red.jpg",
+              "alt": "A black woman wearing red against a red background."
+            },
+            "bestseller": true,
+            "featured": false
+        },
+        {
+            "id": 6,  
+            "name": "La chola",
+            "category": "people",
+            "price": 26,
+            "currency": "USD",
+            "image": {
+              "src": "/static/la-chola.jpg",
+              "alt": "A chola from Bolivia holding a goat kid."
+            },
+            "bestseller": false,
+            "featured": false
+        },
+        {
+            "id": 7,  
+            "name": "Perspective",
+            "category": "people",
+            "price": 151,
+            "currency": "USD",
+            "image": {
+              "src": "/static/perspective.jpg",
+              "alt": "A man seen from the bottom."
+            },
+            "bestseller": false,
+            "featured": false
+        },
+        {
+            "id": 8,  
+            "name": "Sunset beach",
+            "category": "landscapes",
+            "price": 139,
+            "currency": "USD",
+            "image": {
+              "src": "/static/sunset-beach.jpg",
+              "alt": "View of palms and the sea at sunset."
+            },
+            "bestseller": false,
+            "featured": false
+        },
+        {
+            "id": 9,  
+            "name": "Playful dog",
+            "category": "pets",
+            "price": 60,
+            "currency": "USD",
+            "image": {
+              "src": "/static/playful-dog.jpg",
+              "alt": "A dog catching a treat mid-air."
+            },
+            "bestseller": false,
+            "featured": false
+        },
+        {
+            "id": 10,  
+            "name": "Tea time",
+            "category": "objects",
+            "price": 14,
+            "currency": "USD",
+            "image": {
+              "src": "/static/tea-time.jpg",
+              "alt": "A book, a cup of tea and flowers in a table."
+            },
+            "bestseller": false,
+            "featured": false
+        },
+        {
+            "id": 11,  
+            "name": "The Swimmers",
+            "category": "people",
+            "price": 85,
+            "currency": "USD",
+            "image": {
+              "src": "/static/the-swimmers.jpg",
+              "alt": "Aerial view of many swimmers at sea."
+            },
+            "bestseller": true,
+            "featured": false
+        },
+        {
+            "id": 12,  
+            "name": "Pink petals",
+            "category": "objects",
+            "price": 88,
+            "currency": "USD",
+            "image": {
+              "src": "/static/pink-petals.jpg",
+              "alt": "Pink petals strewn on a surface."
+            },
+            "bestseller": false,
+            "featured": false
+        },
+        {
+            "id": 13,  
+            "name": "The Veiled Woman",
+            "category": "people",
+            "price": 104,
+            "currency": "USD",
+            "image": {
+              "src": "/static/the-veiled-woman.jpg",
+              "alt": "A young woman wearing a hat and a red veil."
+            },
+            "bestseller": true,
+            "featured": false
+        },
+        {
+            "id": 14,  
+            "name": "Surfer at beach",
+            "category": "landscapes",
+            "price": 146,
+            "currency": "USD",
+            "image": {
+              "src": "/static/surfer-at-beach.jpg",
+              "alt": "Black and white picture of a beach and a surfer."
+            },
+            "bestseller": false,
+            "featured": false
+        },
+        {
+            "id": 15,  
+            "name": "Rain",
+            "category": "people",
+            "price": 90,
+            "currency": "USD",
+            "image": {
+              "src": "/static/rain.jpg",
+              "alt": "A woman walking under the rain."
+            },
+            "bestseller": false,
+            "featured": false
+        },
+        {
+            "id": 16,  
+            "name": "Roses",
+            "category": "objects",
+            "price": 212,
+            "currency": "USD",
+            "image": {
+              "src": "/static/roses.jpg",
+              "alt": "Roses being held by a woman behind her back."
+            },
+            "bestseller": false,
+            "featured": false
+        },
+        {
+            "id": 17,  
+            "name": "Oranges",
+            "category": "objects",
+            "price": 219,
+            "currency": "USD",
+            "image": {
+              "src": "/static/oranges.jpg",
+              "alt": "A bunch of oranges."
+            },
+            "bestseller": true,
+            "featured": false
+        },
+        {
+            "id": 18,  
+            "name": "The Blur",
+            "category": "people",
+            "price": 240,
+            "currency": "USD",
+            "image": {
+              "src": "/static/the-blur.jpg",
+              "alt": "A blurry image of a man at the beach."
+            },
+            "bestseller": false,
+            "featured": false
+        },
+        {
+            "id": 19,  
+            "name": "Foggy night",
+            "category": "landscapes",
+            "price": 218,
+            "currency": "USD",
+            "image": {
+              "src": "/static/foggy-night.jpg",
+              "alt": "View of a street at night with fog and neon lights."
+            },
+            "bestseller": true,
+            "featured": false
+        },
+        {
+            "id": 20,  
+            "name": "The chair",
+            "category": "people",
+            "price": 53,
+            "currency": "USD",
+            "image": {
+              "src": "/static/the-chair.jpg",
+              "alt": "A black man wearing a colorful suit sitted in the middle of a clearing."
+            },
+            "bestseller": false,
+            "featured": false
+        }
+    ]
+}
